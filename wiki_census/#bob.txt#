@@ -1,0 +1,9 @@
+ estref= <ref name=\"USCensusEst2014\">{{cite web|url=http://www.census.gov/popest/data/cities/totals/2014/SUB-EST2014.html|title=Annual Estimates of the Resident Population for Incorporated Places: April 1, 2010 to July 1, 2014|accessdate=June 4, 2015}}</ref>\n
+
+footnote=<center>U.S. Decennial Census<ref name=\"DecennialCensus\">{{cite web|url=http://www.census.gov/prod/www/decennial.html|title=Census of Population and Housing|publisher=Census.gov|accessdate=June 4, 2015}}</ref></center>\n"
+    printf "}}\n"
+
+
+
+}
+

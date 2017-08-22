@@ -1,0 +1,32 @@
+"0","library(tidyverse)"
+"0","everything = read_csv(""merged.csv"")"
+"2","Missing column names filled in: 'X1' [1]"
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  X1 = col_integer(),
+  Alperin_County = col_character(),
+  Alperin_Place = col_character(),
+  COUSUB = col_character(),
+  Census_Name_2010 = col_character(),
+  City = col_character(),
+  `City Source` = col_character(),
+  CityST = col_character(),
+  County = col_character(),
+  County_Name = col_character(),
+  `Incorporation Date` = col_character(),
+  PLACE = col_character(),
+  `Place Type` = col_character(),
+  `Population Source` = col_character(),
+  ST = col_character(),
+  SUMLEV = col_character(),
+  Type = col_character(),
+  `Unnamed: 1` = col_character(),
+  `Unnamed: 38` = col_character(),
+  `Unnamed: 39` = col_character()
+  # ... with 8 more columns
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"0","head(everything)"

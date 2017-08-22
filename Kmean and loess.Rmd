@@ -1,0 +1,118 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(tidyverse)
+
+overage = read_csv("~/9943478/wiki3.csv")
+overage %>% filter(y2010>=0) %>% nrow
+```
+
+```{r}
+overage %>% ungroup %>% filter(`y2010` > 1) %>% sample_n(10000) %>% ggplot() + geom_point() + aes(y=article_length,x=y2010) + scale_y_log10() + scale_x_log10() + geom_smooth(method="loess",span = .75)
+```
+
+```{r}
+overage = overage %>% filter(y2010 > 0)
+model = loess(log(article_length) ~ log(y2010+1),overage,span=.8)
+overage$preds = predict(model)
+
+
+```
+
+```{r}
+overage %>% mutate(error = log(article_length) - preds, scaled_error = scale(error) %>% as.numeric) %>% arrange(-abs(scaled_error)) %>% write_csv("~/9943478/errors.csv")
+```
+
+
+```{r}
+mat = overage %>% select(starts_with("y")) %>% as.matrix
+mat[mat==0] = NA
+change = (mat[,-1])/(mat[,-ncol(mat)])
+lchange = log(change)
+
+smoother = sapply(1:ncol(lchange),function(i){
+  row = sapply(1:ncol(lchange),function(j) {
+    p = pnorm(i-j,0,2)
+    min(p,1-p) 
+  })
+  row/sum(row)
+})
+
+lchange[is.na(lchange)] = 0
+lchange[is.infinite(lchange)] = 0
+
+lchange2 = lchange %*% smoother
+k = 9
+a = flexclust::kcca(lchange2,k,flexclust::kccaFamily("kmeans"),simple=T)
+#a = kmeans(lchange,k,iter.max = 25,nstart = 5)
+
+
+overage$cluster = a@cluster
+
+plottable = lapply(1:k,function(n) {
+  p = lchange2[a@cluster==n,]
+  #exp(cumsum(apply(p,2,mean))) %>%
+  apply(p,2,mean) %>%
+    as.data.frame %>% mutate(year = seq(1800,2010,by=10),k = n)
+}) %>% bind_rows
+names(plottable)[1] = "population"
+ggplot(plottable) + geom_line(aes(x=year,y=population)) + facet_wrap(~k,scales="free_y")
+
+ggplot(overage %>% filter(lon < -25, lat < 50,lat > 23) %>% filter(state %in% c("MA","NY","NJ","PA","ME","VT","NH","RI","CT"))) + geom_point(aes(x=lon,y=lat,color=factor(cluster)),alpha=.05) + facet_wrap(~cluster)
+
+pops 
+```
+```{r}
+overage %>% group_by(cluster) %>% arrange(-y2010) %>% filter(!is.na(lat),settlement_type=="City") %>% slice(1) %>% select(lat,lon,state,title)
+overage %>% filter(title=="Detroit")
+```
+
+
+```{r}
+
+loc_data = overage %>% filter(state=="ME") %>% filter(!grepl("County",title))
+mat = loc_data %>% select(starts_with("y")) %>% as.matrix
+mat[mat==0] = NA
+change = (mat[,-1])/(mat[,-ncol(mat)])
+lchange = log(change)
+
+smoother = sapply(1:ncol(lchange),function(i){
+  row = sapply(1:ncol(lchange),function(j) {
+    p = pnorm(i-j,0,2)
+    min(p,1-p) 
+  })
+  row/sum(row)
+})
+
+lchange[is.na(lchange)] = 0
+lchange[is.infinite(lchange)] = 0
+
+lchange2 = lchange %*% smoother
+k = 6
+a = flexclust::kcca(lchange2,k,flexclust::kccaFamily("kmeans"),simple=T)
+#a = kmeans(lchange,k,iter.max = 25,nstart = 5)
+
+
+loc_data$cluster = a@cluster
+
+plottable = lapply(1:k,function(n) {
+  p = lchange2[a@cluster==n,]
+  #apply(p,2,mean))) %>%
+  apply(p,2,mean) %>%
+    cumsum %>% exp %>%
+    as.data.frame %>% mutate(year = seq(1800,2010,by=10),k = n)
+}) %>% bind_rows
+names(plottable)[1] = "population"
+ggplot(plottable) + geom_line(aes(x=year,y=population)) + facet_wrap(~k,scales="free_y")
+
+ggplot(loc_data %>% filter(lon < -25, lat < 50,lat > 23) %>% filter(state %in% c("MA","NY","NJ","PA","ME","VT","NH","RI","CT"))) + aes(x=lon,label=title,y=lat,color=factor(cluster)) + geom_point(alpha=.55,aes(size=y2010)) + facet_wrap(~cluster) + coord_map() + geom_text(data=loc_data %>% group_by(cluster) %>% arrange(-y2010) %>% slice(1:10))
+
+pops 
+```

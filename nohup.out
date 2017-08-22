@@ -1,0 +1,1600 @@
+[I 13:58:34.272 NotebookApp] The port 8888 is already in use, trying another port.
+[I 13:58:34.280 NotebookApp] Serving notebooks from local directory: /home/bschmidt/Dropbox/Gannett/wikipedia_population
+[I 13:58:34.280 NotebookApp] 0 active kernels 
+[I 13:58:34.280 NotebookApp] The Jupyter Notebook is running at: http://localhost:8889/
+[I 13:58:34.280 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 13:58:34.692 NotebookApp] 302 GET /tree (127.0.0.1) 2.18ms
+Created new window in existing browser session.
+[I 13:58:39.226 NotebookApp] 302 POST /login?next=%2Ftree (127.0.0.1) 3.75ms
+[I 13:58:43.771 NotebookApp] Creating new notebook in 
+[W 13:58:44.195 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170713135833 (127.0.0.1) 8.72ms referer=http://localhost:8889/notebooks/Untitled.ipynb?kernel_name=python2
+[I 13:58:44.249 NotebookApp] Kernel started: f6106d6c-353f-4d56-a7f5-9040dedf208f
+[I 14:00:44.245 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:02:44.356 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:06:44.363 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:08:55.255 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:10:55.260 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:12:55.252 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:14:55.251 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:16:55.249 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:18:55.250 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:22:55.244 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:24:55.240 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:24:57.786 NotebookApp] Kernel interrupted: f6106d6c-353f-4d56-a7f5-9040dedf208f
+[I 14:26:55.246 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:28:55.249 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:30:55.361 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:32:55.246 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:34:55.360 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:40:55.252 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:44:55.269 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:46:55.252 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:48:55.257 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:50:55.254 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:52:55.243 NotebookApp] Saving file at /Untitled.ipynb
+[I 14:54:55.352 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:00:55.247 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:02:55.267 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:04:55.248 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:06:55.247 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:08:55.254 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:10:55.255 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:12:55.248 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:14:55.275 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:16:55.255 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:18:55.246 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:20:55.255 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:22:55.354 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:26:55.241 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:28:55.248 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:30:55.252 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:32:55.253 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:34:55.354 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:36:55.245 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:36:55.352 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:38:55.254 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:40:55.273 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:42:55.248 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:44:55.364 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:54:02.456 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:54:55.242 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:56:55.243 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:58:55.240 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:00:55.246 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:02:55.241 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:04:55.244 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:08:55.257 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:10:55.257 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:12:55.256 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:14:55.271 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:16:55.246 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:18:55.241 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:20:55.241 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:22:55.241 NotebookApp] Saving file at /Untitled.ipynb
+[I 23:52:31.410 NotebookApp] 302 GET / (127.0.0.1) 0.50ms
+[I 23:52:31.442 NotebookApp] 302 GET /tree? (127.0.0.1) 1.08ms
+[I 23:52:32.653 NotebookApp] 302 POST /login?next=%2Ftree%3F (127.0.0.1) 2.55ms
+[W 23:52:37.370 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170713135833 (127.0.0.1) 1.75ms referer=http://localhost:8889/notebooks/Untitled.ipynb
+[I 23:54:37.131 NotebookApp] Saving file at /Untitled.ipynb
+[I 23:56:37.111 NotebookApp] Saving file at /Untitled.ipynb
+[I 23:58:26.173 NotebookApp] Kernel started: f22f79b3-118a-4c79-b136-001f917c7b32
+[W 23:58:26.279 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170713135833 (127.0.0.1) 2.29ms referer=http://localhost:8889/notebooks/U2.ipynb
+[I 23:58:37.110 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:55:29.319 NotebookApp] Saving file at /U2.ipynb
+[W 15:55:45.298 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 15:56:54.420 NotebookApp] Saving file at /U2.ipynb
+[I 16:36:47.147 NotebookApp] Saving file at /U2.ipynb
+[I 16:38:47.194 NotebookApp] Saving file at /U2.ipynb
+[I 16:40:47.253 NotebookApp] Saving file at /U2.ipynb
+[I 16:42:47.135 NotebookApp] Saving file at /U2.ipynb
+[I 16:44:47.134 NotebookApp] Saving file at /U2.ipynb
+[I 16:46:47.136 NotebookApp] Saving file at /U2.ipynb
+[W 16:51:59.370 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 16:52:00.967 NotebookApp] Kernel shutdown: f6106d6c-353f-4d56-a7f5-9040dedf208f
+[W 16:52:00.973 NotebookApp] 404 GET /api/kernels/f6106d6c-353f-4d56-a7f5-9040dedf208f/channels?session_id=C6FC4FA18E394A4782D766EC921A75D1 (127.0.0.1): Kernel does not exist: f6106d6c-353f-4d56-a7f5-9040dedf208f
+[W 16:52:00.974 NotebookApp] 404 GET /api/kernels/f6106d6c-353f-4d56-a7f5-9040dedf208f/channels?session_id=C6FC4FA18E394A4782D766EC921A75D1 (127.0.0.1) 6.45ms referer=None
+[W 16:52:00.981 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170713135833 (127.0.0.1) 2.33ms referer=http://localhost:8889/notebooks/Untitled.ipynb
+[I 16:52:00.991 NotebookApp] Kernel started: f06860c0-b3fe-44f8-96d3-f6930d688cde
+[I 16:52:02.640 NotebookApp] Kernel shutdown: f06860c0-b3fe-44f8-96d3-f6930d688cde
+[E 16:52:02.642 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: f06860c0-b3fe-44f8-96d3-f6930d688cde)
+[W 16:52:02.899 NotebookApp] Replacing stale connection: f06860c0-b3fe-44f8-96d3-f6930d688cde:C6FC4FA18E394A4782D766EC921A75D1
+[W 16:52:02.901 NotebookApp] 404 GET /api/kernels/f06860c0-b3fe-44f8-96d3-f6930d688cde/channels?session_id=C6FC4FA18E394A4782D766EC921A75D1 (127.0.0.1): Kernel does not exist: f06860c0-b3fe-44f8-96d3-f6930d688cde
+[W 16:52:02.903 NotebookApp] 404 GET /api/kernels/f06860c0-b3fe-44f8-96d3-f6930d688cde/channels?session_id=C6FC4FA18E394A4782D766EC921A75D1 (127.0.0.1) 5.97ms referer=None
+[I 16:52:47.139 NotebookApp] Saving file at /U2.ipynb
+[I 16:54:47.150 NotebookApp] Saving file at /U2.ipynb
+[I 16:56:47.152 NotebookApp] Saving file at /U2.ipynb
+[I 16:58:47.137 NotebookApp] Saving file at /U2.ipynb
+[I 17:00:47.222 NotebookApp] Saving file at /U2.ipynb
+[I 17:02:47.170 NotebookApp] Saving file at /U2.ipynb
+[I 17:04:47.138 NotebookApp] Saving file at /U2.ipynb
+[I 17:06:53.947 NotebookApp] Saving file at /U2.ipynb
+[I 17:08:47.167 NotebookApp] Saving file at /U2.ipynb
+[I 19:54:47.150 NotebookApp] Saving file at /U2.ipynb
+[I 19:56:47.134 NotebookApp] Saving file at /U2.ipynb
+[I 19:58:47.134 NotebookApp] Saving file at /U2.ipynb
+[I 20:00:47.161 NotebookApp] Saving file at /U2.ipynb
+[I 20:02:47.146 NotebookApp] Saving file at /U2.ipynb
+[I 20:04:47.200 NotebookApp] Saving file at /U2.ipynb
+[I 20:06:47.133 NotebookApp] Saving file at /U2.ipynb
+[I 20:08:47.142 NotebookApp] Saving file at /U2.ipynb
+[I 20:10:47.138 NotebookApp] Saving file at /U2.ipynb
+[I 20:12:47.132 NotebookApp] Saving file at /U2.ipynb
+[I 20:14:47.130 NotebookApp] Saving file at /U2.ipynb
+[I 20:16:47.140 NotebookApp] Saving file at /U2.ipynb
+[I 20:18:47.143 NotebookApp] Saving file at /U2.ipynb
+[I 20:20:47.133 NotebookApp] Saving file at /U2.ipynb
+[I 20:22:47.133 NotebookApp] Saving file at /U2.ipynb
+[I 20:24:47.135 NotebookApp] Saving file at /U2.ipynb
+[I 20:26:47.143 NotebookApp] Saving file at /U2.ipynb
+[I 20:28:47.131 NotebookApp] Saving file at /U2.ipynb
+[I 20:30:47.153 NotebookApp] Saving file at /U2.ipynb
+[I 20:32:47.126 NotebookApp] Saving file at /U2.ipynb
+[I 20:34:47.131 NotebookApp] Saving file at /U2.ipynb
+[I 20:36:47.120 NotebookApp] Saving file at /U2.ipynb
+[I 20:38:47.138 NotebookApp] Saving file at /U2.ipynb
+[I 20:40:47.139 NotebookApp] Saving file at /U2.ipynb
+[I 20:42:47.132 NotebookApp] Saving file at /U2.ipynb
+[I 20:44:47.131 NotebookApp] Saving file at /U2.ipynb
+[I 20:46:47.150 NotebookApp] Saving file at /U2.ipynb
+[I 20:48:47.156 NotebookApp] Saving file at /U2.ipynb
+[I 20:50:47.147 NotebookApp] Saving file at /U2.ipynb
+[I 20:52:47.134 NotebookApp] Saving file at /U2.ipynb
+[I 20:54:47.129 NotebookApp] Saving file at /U2.ipynb
+[I 20:56:47.137 NotebookApp] Saving file at /U2.ipynb
+[I 20:58:47.144 NotebookApp] Saving file at /U2.ipynb
+[I 21:00:47.146 NotebookApp] Saving file at /U2.ipynb
+[I 21:02:47.141 NotebookApp] Saving file at /U2.ipynb
+[I 21:04:47.122 NotebookApp] Saving file at /U2.ipynb
+[I 21:06:47.128 NotebookApp] Saving file at /U2.ipynb
+[I 07:22:47.133 NotebookApp] Saving file at /U2.ipynb
+[I 07:24:47.159 NotebookApp] Saving file at /U2.ipynb
+[I 07:50:47.200 NotebookApp] Saving file at /U2.ipynb
+[I 07:56:47.160 NotebookApp] Saving file at /U2.ipynb
+[I 07:58:47.151 NotebookApp] Saving file at /U2.ipynb
+[I 08:02:47.125 NotebookApp] Saving file at /U2.ipynb
+[I 08:04:47.135 NotebookApp] Saving file at /U2.ipynb
+[I 08:06:47.318 NotebookApp] Saving file at /U2.ipynb
+[I 08:08:47.169 NotebookApp] Saving file at /U2.ipynb
+[I 09:42:52.225 NotebookApp] Saving file at /U2.ipynb
+[I 09:44:52.215 NotebookApp] Saving file at /U2.ipynb
+[I 19:16:52.222 NotebookApp] Saving file at /U2.ipynb
+[I 19:17:25.438 NotebookApp] Saving file at /U2.ipynb
+[I 19:18:30.845 NotebookApp] Saving file at /U2.ipynb
+[I 19:18:52.211 NotebookApp] Saving file at /U2.ipynb
+[I 19:20:52.228 NotebookApp] Saving file at /U2.ipynb
+[I 19:22:38.334 NotebookApp] Saving file at /U2.ipynb
+[I 19:22:52.208 NotebookApp] Saving file at /U2.ipynb
+[I 19:24:52.217 NotebookApp] Saving file at /U2.ipynb
+[I 19:26:52.235 NotebookApp] Saving file at /U2.ipynb
+[I 19:28:52.224 NotebookApp] Saving file at /U2.ipynb
+[I 19:36:52.250 NotebookApp] Saving file at /U2.ipynb
+[I 19:38:52.228 NotebookApp] Saving file at /U2.ipynb
+[I 19:58:52.226 NotebookApp] Saving file at /U2.ipynb
+[I 20:00:52.730 NotebookApp] Saving file at /U2.ipynb
+[I 20:06:52.257 NotebookApp] Saving file at /U2.ipynb
+[I 20:07:47.486 NotebookApp] Saving file at /U2.ipynb
+[I 20:08:52.227 NotebookApp] Saving file at /U2.ipynb
+[I 20:12:52.240 NotebookApp] Saving file at /U2.ipynb
+[I 20:20:52.262 NotebookApp] Saving file at /U2.ipynb
+[I 20:24:52.805 NotebookApp] Saving file at /U2.ipynb
+[I 20:24:59.167 NotebookApp] Saving file at /U2.ipynb
+[I 20:25:27.611 NotebookApp] Saving file at /U2.ipynb
+[I 20:25:43.989 NotebookApp] Saving file at /U2.ipynb
+[I 20:26:11.869 NotebookApp] Saving file at /U2.ipynb
+[I 20:26:52.344 NotebookApp] Saving file at /U2.ipynb
+[I 20:28:52.217 NotebookApp] Saving file at /U2.ipynb
+[I 20:30:52.251 NotebookApp] Saving file at /U2.ipynb
+[I 20:32:52.256 NotebookApp] Saving file at /U2.ipynb
+[I 20:34:52.290 NotebookApp] Saving file at /U2.ipynb
+[I 20:36:52.231 NotebookApp] Saving file at /U2.ipynb
+[I 21:20:52.238 NotebookApp] Saving file at /U2.ipynb
+[I 21:22:52.255 NotebookApp] Saving file at /U2.ipynb
+[I 21:24:54.257 NotebookApp] Saving file at /U2.ipynb
+[I 08:54:52.334 NotebookApp] Saving file at /U2.ipynb
+[I 08:56:52.286 NotebookApp] Saving file at /U2.ipynb
+[I 16:14:52.273 NotebookApp] Saving file at /U2.ipynb
+[I 21:44:52.227 NotebookApp] Saving file at /U2.ipynb
+[I 21:46:52.226 NotebookApp] Saving file at /U2.ipynb
+[I 21:48:52.258 NotebookApp] Saving file at /U2.ipynb
+[I 21:50:52.217 NotebookApp] Saving file at /U2.ipynb
+[I 22:10:52.234 NotebookApp] Saving file at /U2.ipynb
+[I 22:12:52.224 NotebookApp] Saving file at /U2.ipynb
+[I 22:15:04.020 NotebookApp] Saving file at /U2.ipynb
+[I 22:17:26.560 NotebookApp] Saving file at /U2.ipynb
+[I 22:18:15.989 NotebookApp] Saving file at /U2.ipynb
+[I 22:19:46.484 NotebookApp] Saving file at /U2.ipynb
+[I 22:21:23.912 NotebookApp] Saving file at /U2.ipynb
+[I 22:24:26.505 NotebookApp] Saving file at /U2.ipynb
+[I 22:26:46.485 NotebookApp] Saving file at /U2.ipynb
+[I 22:29:16.437 NotebookApp] Saving file at /U2.ipynb
+[I 22:31:27.341 NotebookApp] Saving file at /U2.ipynb
+[C 08:30:18.776 NotebookApp] received signal 15, stopping
+[I 08:30:18.777 NotebookApp] Shutting down kernels
+[I 08:30:18.878 NotebookApp] Kernel shutdown: f22f79b3-118a-4c79-b136-001f917c7b32
+[I 13:10:20.647 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 13:10:21.112 NotebookApp] Serving notebooks from local directory: /home/bschmidt/Dropbox/Gannett/wikipedia_population
+[I 13:10:21.112 NotebookApp] 0 active kernels 
+[I 13:10:21.112 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 13:10:21.112 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 13:10:21.717 NotebookApp] 302 GET /tree (127.0.0.1) 1.70ms
+[1:1:0721/131021.972934:ERROR:KeyboardEventManager.cpp(427)] Not implemented reached in static bool blink::KeyboardEventManager::currentCapsLockState()
+[I 13:10:28.733 NotebookApp] 302 POST /login?next=%2Ftree (127.0.0.1) 4.79ms
+[W 13:10:32.982 NotebookApp] Notebook Parse Wikipedia Dumps.ipynb is not trusted
+[W 13:10:33.017 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 10.62ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps.ipynb
+[I 13:10:34.522 NotebookApp] Kernel started: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 13:12:34.539 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:12:34.539 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[8028:8028:0721/131924.851761:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[8028:8028:0721/131931.344881:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[I 13:20:34.528 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:20:34.528 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 13:32:34.534 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:32:34.535 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[W 13:46:28.911 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 1.48ms referer=http://localhost:8888/notebooks/U2.ipynb
+[I 13:46:29.494 NotebookApp] Kernel started: 70259951-4289-4c6d-93d0-2493ae5e5074
+[I 13:46:35.895 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:46:35.896 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 13:52:35.898 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:52:35.900 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 13:54:35.897 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:54:35.897 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 13:56:35.873 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:56:35.874 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 13:56:40.938 NotebookApp] Creating new notebook in 
+[I 13:56:41.338 NotebookApp] Kernel started: d39d9b65-2172-40a8-900d-5cf426f27b94
+[W 13:56:41.345 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 1.84ms referer=http://localhost:8888/notebooks/Untitled1.ipynb?kernel_name=ir
+[I 13:58:35.898 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 13:58:35.899 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 13:58:41.349 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:00:41.358 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:02:41.383 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:04:41.888 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:08:41.379 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:10:41.886 NotebookApp] Saving file at /Untitled1.ipynb
+[8028:8028:0721/141054.355298:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[I 14:12:41.358 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:14:41.367 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:14:46.860 NotebookApp] Kernel interrupted: d39d9b65-2172-40a8-900d-5cf426f27b94
+[I 14:16:41.382 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:18:41.381 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:20:41.365 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:26:41.382 NotebookApp] Saving file at /Untitled1.ipynb
+[I 14:28:35.879 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:28:35.880 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:30:35.872 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:30:35.873 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:32:19.016 NotebookApp] Kernel restarted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:32:35.866 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:32:35.866 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:34:35.894 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:34:35.895 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:36:35.876 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:36:35.876 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:38:35.887 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:38:35.887 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:40:35.890 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:40:35.891 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:42:22.570 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:42:35.893 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:42:35.894 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:44:35.891 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:44:35.893 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[8028:8028:0721/145503.191605:ERROR:CONSOLE(57)] "Uncaught TypeError: Cannot read property 'addExtensions' of undefined", source: chrome-devtools://devtools/bundled/devtools_compatibility.js (57)
+[I 14:58:35.875 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:58:35.876 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:02:35.865 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:02:35.866 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:04:35.894 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:04:35.896 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:06:35.872 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:06:35.874 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:08:35.861 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:08:35.862 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:10:35.858 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:10:35.859 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:12:35.872 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:12:35.873 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:14:35.889 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:14:35.890 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:14:41.391 NotebookApp] Saving file at /Untitled1.ipynb
+[I 15:16:41.386 NotebookApp] Saving file at /Untitled1.ipynb
+[I 15:18:35.873 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:18:35.874 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:24:09.695 NotebookApp] Copying Parse Wikipedia Dumps.ipynb to 
+[W 15:24:09.717 NotebookApp] Notebook Parse Wikipedia Dumps.ipynb is not trusted
+[W 15:24:09.731 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps-Copy1.ipynb
+[W 15:24:10.103 NotebookApp] Notebook Parse Wikipedia Dumps-Copy1.ipynb is not trusted
+[W 15:24:10.119 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 1.90ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps-Copy1.ipynb
+[I 15:24:10.432 NotebookApp] Kernel started: 2b7f984a-7f6e-43cd-b913-a1a913ead7b9
+[I 15:26:10.416 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:26:10.416 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:28:10.416 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:28:10.417 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:28:27.275 NotebookApp] Kernel interrupted: 2b7f984a-7f6e-43cd-b913-a1a913ead7b9
+[I 15:29:35.479 NotebookApp] Kernel interrupted: 2b7f984a-7f6e-43cd-b913-a1a913ead7b9
+[I 15:30:01.425 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:30:01.427 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:30:07.502 NotebookApp] Kernel interrupted: 2b7f984a-7f6e-43cd-b913-a1a913ead7b9
+[I 15:30:10.425 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:30:10.427 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:32:10.432 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:32:10.434 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:34:10.415 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:34:10.416 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:36:10.416 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:36:10.416 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:38:10.416 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:38:10.417 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:40:10.416 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:40:10.416 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:41:23.857 NotebookApp] Kernel interrupted: 2b7f984a-7f6e-43cd-b913-a1a913ead7b9
+[I 15:42:10.430 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:42:10.432 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:44:10.430 NotebookApp] Saving file at /Parse Wikipedia Dumps for Gutentext.ipynb
+[W 15:44:10.431 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps for Gutentext.ipynb
+[I 15:54:35.866 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:54:35.867 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[8028:8028:0721/160934.478197:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://merriamwebster-d.openx.net/w/1.0/jstag?nc=34444486-EB, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://merriamwebster-d.openx.net/w/1.0/jstag?nc=34444486-EB, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://cas.criteo.com/delivery/ajs.php?zoneid=328783&nodis=1&cb=37131498536&exclude=undefined&charset=UTF-8&loc=http%3A//www.270towin.com/1868_Election/, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+--2017-07-21 17:07:50--  https://clients2.google.com/cr/report
+Resolving clients2.google.com (clients2.google.com)... 172.217.10.142, 2607:f8b0:4006:812::200e
+Connecting to clients2.google.com (clients2.google.com)|172.217.10.142|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘/dev/fd/4’
+
+     0K
+ Crash dump id:  0762f1fa88000000 
+                                                      867K[I 20:33:58.374 NotebookApp] 302 GET / (127.0.0.1) 0.33ms
+[W 20:34:09.025 NotebookApp] Notebook Parse Wikipedia Dumps.ipynb is not trusted
+[W 20:34:09.043 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 1.50ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps.ipynb
+[I 20:36:09.360 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:36:09.361 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:38:09.360 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:38:09.361 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:40:09.350 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:40:09.350 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:42:09.350 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:42:09.351 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:44:09.358 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:44:09.360 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:46:09.354 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:46:09.355 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:50:09.358 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:50:09.359 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:54:09.352 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:54:09.353 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:56:09.358 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:56:09.359 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:58:09.357 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:58:09.358 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:00:09.356 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:00:09.357 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:02:09.643 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:02:09.644 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:04:09.359 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:04:09.360 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:28:17.761 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:28:17.762 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:30:17.765 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:30:17.767 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:32:17.768 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:32:17.770 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:34:17.767 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:34:17.768 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:36:18.062 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:36:18.064 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:40:17.761 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:40:17.762 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:42:17.760 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:42:17.761 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:44:17.768 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:44:17.769 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:46:17.768 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:46:17.770 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:09.378 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:09.381 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:09.733 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:09.734 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:09.805 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:09.806 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:09.850 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:09.850 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:09.888 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:09.889 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:09.935 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:09.936 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:09.980 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:09.980 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.044 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.045 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.092 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.093 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.131 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.132 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.169 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.170 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.213 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.213 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.252 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.253 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.298 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.299 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.359 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.359 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.403 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.404 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.445 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.445 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.487 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.488 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.531 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.532 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.571 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.572 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.614 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.615 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.651 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.652 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.689 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.690 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.727 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.728 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.773 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.774 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.812 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.813 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.891 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.892 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.941 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.941 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:10.985 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:10.986 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.024 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.025 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.071 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.071 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.118 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.119 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.159 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.159 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.196 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.196 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.235 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.236 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.275 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.276 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.313 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.314 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.352 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.352 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.391 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.392 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.438 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.439 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.493 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.494 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.547 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.548 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.596 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.597 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.649 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.650 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.689 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.689 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.725 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.726 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.773 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.774 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.836 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.836 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.878 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.879 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.915 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.915 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.955 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.956 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:11.992 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:11.992 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.029 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.029 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.066 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.067 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.103 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.104 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.140 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.141 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.179 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.180 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.219 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.220 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.258 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.259 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.295 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.296 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.332 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.332 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.369 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.370 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.411 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.412 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.449 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.449 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.486 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.487 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.524 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.525 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:47:12.562 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:47:12.563 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:48:18.054 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:48:18.055 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:56:17.764 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:56:17.765 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 21:58:17.763 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 21:58:17.763 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:00:18.050 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:00:18.051 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:02:17.769 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:02:17.772 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:04:17.767 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:04:17.768 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:06:17.762 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:06:17.762 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:08:17.767 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:08:17.769 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:10:17.765 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:10:17.766 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:12:18.062 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:12:18.063 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:40:18.062 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:40:18.065 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:42:17.765 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:42:17.765 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:48:17.760 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:48:17.761 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:50:17.765 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:50:17.766 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:52:17.759 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:52:17.760 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:54:17.764 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:54:17.765 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:55:55.150 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:55:55.151 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:56:17.758 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:56:17.758 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:58:18.071 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:58:18.072 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:03:31.110 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:03:31.111 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:04:17.772 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:04:17.774 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:06:17.772 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:06:17.774 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:08:18.069 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:08:18.069 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:13:44.881 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:13:44.882 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:15:44.881 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:15:44.882 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:17:44.900 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:17:44.901 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:19:44.967 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:19:44.967 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:21:45.177 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:21:45.177 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:23:44.882 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:23:44.883 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:25:45.190 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:25:45.192 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:29:44.892 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:29:44.892 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:31:44.880 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:31:44.881 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:33:44.878 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:33:44.879 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:35:44.881 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:35:44.881 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:37:44.889 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:37:44.889 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:38:51.022 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 23:38:51.519 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 23:39:45.170 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:39:45.170 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:41:45.178 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:41:45.179 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:43:44.887 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:43:44.887 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:45:44.890 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:45:44.891 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:47:44.879 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:47:44.880 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:53:44.895 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:53:44.896 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:55:45.177 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:55:45.178 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 23:59:44.893 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 23:59:44.895 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:01:44.892 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:01:44.894 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:03:44.885 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:03:44.886 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:05:44.890 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:05:44.890 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:07:44.873 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:07:44.873 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:08:35.668 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 00:09:00.800 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 00:09:36.425 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:09:36.427 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:09:44.873 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:09:44.873 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:15:44.873 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:15:44.874 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:19:44.872 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:19:44.873 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:23:44.875 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:23:44.876 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:25:44.872 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:25:44.873 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:27:44.873 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:27:44.874 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:29:44.873 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:29:44.873 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:31:44.872 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:31:44.872 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:33:44.882 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:33:44.883 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:35:44.882 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:35:44.884 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:37:44.884 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:37:44.885 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:39:44.883 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:39:44.885 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:41:44.946 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:41:44.949 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:43:44.897 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:43:44.899 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:45:44.874 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:45:44.875 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:47:44.880 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:47:44.882 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:49:44.890 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:49:44.891 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:51:44.882 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:51:44.883 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:53:44.874 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:53:44.875 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:55:44.876 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:55:44.877 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:57:44.882 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:57:44.883 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 00:59:44.886 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 00:59:44.887 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 01:01:44.886 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 01:01:44.887 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 01:03:44.875 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 01:03:44.876 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 01:05:44.876 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 01:05:44.877 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 01:07:44.885 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 01:07:44.886 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 01:09:44.887 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 01:09:44.888 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:05:44.879 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:05:44.880 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:05:59.078 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:05:59.079 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:40:28.685 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 10:40:40.901 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 10:42:21.184 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:42:21.185 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:44:21.173 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:44:21.174 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:46:21.174 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:46:21.175 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:48:21.173 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:48:21.174 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:50:21.181 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:50:21.182 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:52:21.172 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:52:21.173 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:54:21.186 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:54:21.188 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:56:21.614 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:56:21.616 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:58:21.652 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:58:21.656 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 11:00:21.902 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 11:00:21.904 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 11:04:21.626 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 11:04:21.628 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 11:04:38.810 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 11:04:38.812 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 11:06:21.901 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 11:06:21.901 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:32:11.125 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:32:11.127 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:34:11.109 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:34:11.110 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:36:11.107 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:36:11.108 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:38:11.408 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:38:11.409 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:42:27.417 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:42:27.418 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:44:11.659 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:44:11.662 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:48:11.116 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:48:11.118 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:50:11.418 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:50:11.419 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:52:11.109 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:52:11.110 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:54:11.130 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:54:11.131 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:56:11.126 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:56:11.128 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:58:11.106 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 14:58:11.107 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 14:59:06.784 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:59:36.554 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:59:37.128 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:59:37.137 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:59:37.786 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:59:37.810 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 14:59:37.825 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:00:11.158 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:00:11.158 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:01:18.650 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:01:29.274 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:02:11.104 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:02:11.104 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:02:19.597 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:03:07.246 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:03:07.247 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:03:08.203 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:04:11.103 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:04:11.103 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:06:11.103 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:06:11.104 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:08:11.105 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:08:11.106 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:10:11.105 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:10:11.105 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:12:11.105 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:12:11.106 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:14:11.104 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:14:11.105 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:16:11.103 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:16:11.104 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:18:11.104 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:18:11.104 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:20:11.106 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:20:11.107 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:22:11.108 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:22:11.109 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:23:12.686 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:24:11.118 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:24:11.118 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 15:26:11.117 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 15:26:11.118 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 19:45:40.180 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 19:45:40.181 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 19:51:40.165 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 19:51:40.167 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 19:53:40.164 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 19:53:40.165 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 19:55:40.177 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 19:55:40.178 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:07:36.544 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:07:36.545 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:07:40.158 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:07:40.159 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:09:40.179 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:09:40.180 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:11:40.162 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:11:40.164 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:23:40.831 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:23:40.832 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:25:40.838 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:25:40.839 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:27:40.831 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:27:40.832 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:29:40.835 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:29:40.835 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:30:44.387 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:30:44.389 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:30:45.205 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:30:45.206 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:31:40.836 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:31:40.837 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:33:40.850 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:33:40.851 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:35:40.848 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:35:40.850 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:37:40.839 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:37:40.840 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:49:40.833 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:49:40.834 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:51:22.111 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:51:40.854 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:51:40.855 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:51:41.440 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:07.221 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:16.784 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:17.272 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:17.286 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:17.317 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:17.328 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:17.338 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:17.448 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:17.629 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:52:39.084 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:53:14.193 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:53:40.837 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:53:40.838 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:55:40.845 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:55:40.846 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:57:21.131 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 20:57:40.834 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:57:40.834 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:57:58.955 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:57:58.956 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 20:59:40.836 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 20:59:40.837 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:08:59.542 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 22:09:12.762 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 22:09:40.855 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:09:40.856 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:09:53.917 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:09:53.919 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:11:40.834 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:11:40.835 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:13:40.837 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:13:40.838 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:15:40.839 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:15:40.839 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:17:40.845 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:17:40.846 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:19:40.829 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:19:40.830 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:20:38.109 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:20:38.110 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:21:04.341 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 22:21:18.771 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 22:21:27.066 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 22:21:40.826 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:21:40.827 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:23:40.835 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:23:40.835 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:25:40.853 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:25:40.855 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:29:40.849 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:29:40.850 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:33:40.831 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:33:40.832 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:35:40.828 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:35:40.829 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:37:40.849 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:37:40.850 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:45:40.850 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:45:40.852 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:47:40.852 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:47:40.854 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:49:40.843 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:49:40.844 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:51:40.837 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:51:40.838 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:53:40.859 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:53:40.861 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:57:40.854 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:57:40.855 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 22:59:40.833 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 22:59:40.833 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:23:45.135 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:23:45.137 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:25:45.116 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:25:45.117 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:27:45.113 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:27:45.114 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:29:45.113 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:29:45.114 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:31:45.116 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:31:45.117 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:33:45.118 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:33:45.119 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:35:45.157 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:35:45.158 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:37:45.112 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:37:45.113 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:41:45.113 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:41:45.114 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:43:45.128 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:43:45.130 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:44:41.556 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:44:41.557 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:45:45.129 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:45:45.130 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:47:45.112 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:47:45.113 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:49:45.113 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:49:45.114 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:51:45.113 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:51:45.114 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:53:45.127 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:53:45.129 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:55:45.126 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[W 10:55:45.128 NotebookApp] Saving untrusted notebook Parse Wikipedia Dumps.ipynb
+[I 10:57:11.239 NotebookApp] Kernel restarted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 10:57:45.097 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 10:57:47.764 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 10:57:51.138 NotebookApp] Kernel restarted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 10:59:45.101 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:01:45.095 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:03:45.102 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:05:45.110 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:07:45.101 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:09:45.106 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:11:45.101 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:13:45.094 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:15:45.099 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:21:25.805 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:21:32.168 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:22:42.648 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:24:42.649 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:26:42.654 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:28:42.653 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:30:42.648 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:32:42.653 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:34:42.655 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:36:42.653 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:38:43.565 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:40:43.573 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:42:43.571 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:44:43.575 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:46:43.576 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:48:43.571 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:50:43.577 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:52:43.580 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:54:43.566 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:56:43.566 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:58:43.579 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:19:57.998 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:21:58.006 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:23:58.003 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:25:57.997 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:27:57.998 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:29:58.000 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:31:58.439 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:39:58.431 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:05:58.433 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:07:58.438 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:09:58.436 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:11:58.439 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:13:58.431 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:15:58.494 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:19:58.440 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:20:50.309 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:21:42.284 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:23:58.425 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:25:58.427 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:27:58.442 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:28:44.809 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:29:58.491 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:31:27.257 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:31:30.525 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:31:58.439 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:33:58.426 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:35:58.427 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:37:58.424 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:39:58.435 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:55:58.456 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:55:12.289 NotebookApp] 302 GET / (127.0.0.1) 1.54ms
+[I 09:55:12.334 NotebookApp] 302 GET /tree? (127.0.0.1) 0.83ms
+[I 09:55:15.959 NotebookApp] 302 POST /login?next=%2Ftree%3F (127.0.0.1) 3.66ms
+[W 09:55:44.088 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 2.32ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps.ipynb
+[I 09:57:43.657 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:59:45.252 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:10:46.664 NotebookApp] 302 GET / (127.0.0.1) 0.87ms
+[W 15:10:49.772 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 2.12ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps.ipynb
+[I 15:13:19.558 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:14:54.400 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:40:53.916 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:42:53.916 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:44:53.915 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:46:53.915 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:47:05.422 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:48:53.917 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:50:54.393 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:52:54.394 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:53:39.056 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:54:24.700 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:54:53.915 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:56:53.915 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:00:53.947 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:02:00.668 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 16:02:53.922 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:03:05.906 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:03:24.436 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 16:04:53.921 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:06:54.395 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:08:53.936 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:10:53.919 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:12:53.938 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:14:53.919 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:16:53.938 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:18:54.414 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:20:53.924 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:22:54.395 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:24:53.939 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:26:53.928 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:30:53.924 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:32:53.937 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:34:53.932 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:36:53.940 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:38:53.941 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:40:53.940 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:48:53.925 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:50:33.576 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 16:50:53.929 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:52:53.941 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:54:53.917 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:25:17.554 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:27:17.570 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:29:17.571 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:31:17.555 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:33:17.569 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:35:17.579 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:37:17.570 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:39:17.560 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:41:17.564 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:43:17.556 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:45:17.571 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 22:57:17.557 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 23:15:17.554 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 23:21:17.569 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 08:58:01.220 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:00:01.215 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:02:01.210 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:04:01.212 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:08:01.220 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:10:01.212 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:16:01.223 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:18:01.195 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:28:01.195 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:30:01.219 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:32:01.215 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 09:34:01.210 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 10:30:01.212 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:42:36.956 NotebookApp] 302 GET / (127.0.0.1) 2.03ms
+[W 15:42:43.615 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 2.70ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps.ipynb
+[I 15:43:27.711 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 15:44:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:46:44.792 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:48:44.796 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:50:44.793 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:54:44.789 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:56:44.788 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:58:44.803 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:59:07.428 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:00:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:02:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:06:44.785 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:08:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:10:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:12:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:20:44.797 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:22:44.784 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:24:44.793 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:34:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:40:44.782 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:44:44.789 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:46:44.781 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:48:44.806 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:50:44.805 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:51:01.841 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 16:51:10.017 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 16:51:14.394 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 16:52:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:54:44.797 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:56:44.807 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:58:44.783 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:00:44.795 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:02:44.793 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:04:44.799 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:06:44.805 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:12:44.805 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 10:08:44.792 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:48:44.801 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:50:44.787 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:52:44.803 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:54:44.807 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:56:44.807 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:20:44.804 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:36:52.881 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:45:50.538 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 11:46:22.308 NotebookApp] Kernel interrupted: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 11:46:35.919 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:46:38.852 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:46:39.659 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:47:44.899 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:49:44.900 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:53:44.904 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 11:57:44.899 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:19:44.894 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:21:44.894 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:23:44.896 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:28:03.115 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:29:44.896 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:31:44.895 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:33:44.902 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:35:44.899 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:37:44.900 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:39:44.899 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:41:44.924 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:43:44.926 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:45:44.914 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:47:44.919 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:49:44.902 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:51:44.915 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 12:53:44.932 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:05:44.909 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:07:44.913 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:09:44.917 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:11:44.910 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:13:44.901 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:21:44.913 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:23:44.907 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:24:00.306 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:25:44.910 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:27:44.915 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:29:44.912 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:32:31.230 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:33:44.913 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:35:44.924 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:37:44.927 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:39:44.912 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:41:44.914 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:43:44.906 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:45:44.910 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:47:44.929 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:49:44.929 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:51:44.922 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:53:44.927 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 13:55:44.913 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 14:03:44.924 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 14:05:44.925 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 14:07:44.925 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 14:09:44.901 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:00:35.688 NotebookApp] 302 GET / (127.0.0.1) 0.77ms
+[W 15:00:39.547 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 2.62ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps.ipynb
+[I 15:02:41.671 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:04:41.688 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:06:41.666 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:08:41.669 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:10:41.672 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:12:41.665 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:14:41.672 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:16:41.681 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:18:41.677 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:20:41.664 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:22:41.680 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:24:41.682 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:26:41.665 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:28:41.663 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:30:41.663 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:32:41.664 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:34:41.677 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:36:41.664 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:38:41.691 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:38:42.955 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:40:41.692 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:42:41.732 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:50:41.699 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:52:41.695 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:54:41.683 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:56:41.697 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 15:58:41.677 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:00:41.689 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:02:31.725 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:02:44.547 NotebookApp] Creating new notebook in 
+[I 16:02:45.303 NotebookApp] Kernel started: d1050d5f-1513-46c2-955d-2cbdd82c39cf
+[W 16:02:45.319 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 2.38ms referer=http://localhost:8888/notebooks/Untitled2.ipynb?kernel_name=ir
+[I 16:04:41.677 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:04:45.275 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:06:45.256 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:08:45.289 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:12:45.300 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:13:38.305 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:14:45.268 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:16:41.668 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:16:45.263 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:18:41.668 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:20:41.691 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:24:41.681 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:26:41.674 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:28:41.665 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:30:41.679 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:32:41.698 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:34:41.678 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:36:41.668 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:48:45.284 NotebookApp] Saving file at /Untitled2.ipynb
+[I 16:50:41.682 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 16:52:41.663 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:00:41.679 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:02:41.683 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:04:41.699 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:24:41.667 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:25:51.484 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:26:41.686 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:28:41.684 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 17:30:41.687 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 20:10:35.695 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 20:12:35.708 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 20:13:52.910 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 20:14:22.450 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 20:16:35.702 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 20:18:35.680 NotebookApp] Saving file at /Parse Wikipedia Dumps.ipynb
+[I 23:55:44.209 NotebookApp] 302 GET / (127.0.0.1) 1.30ms
+[I 23:55:44.217 NotebookApp] 302 GET /tree? (127.0.0.1) 2.03ms
+[I 23:55:46.644 NotebookApp] 302 POST /login?next=%2Ftree%3F (127.0.0.1) 3.12ms
+[W 23:55:50.597 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 3.12ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps.ipynb
+[I 23:56:01.401 NotebookApp] Copying Parse Wikipedia Dumps.ipynb to 
+[W 23:56:02.101 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170721131020 (127.0.0.1) 1.31ms referer=http://localhost:8888/notebooks/Parse%20Wikipedia%20Dumps-Copy1.ipynb
+[I 23:56:03.524 NotebookApp] Kernel started: 998672b1-c620-4078-ab51-cad89e535d17
+[I 23:58:03.508 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:00:03.509 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:02:03.509 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:02:53.474 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:03:19.811 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:04:03.507 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:06:01.717 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:06:03.523 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:06:10.660 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:08:03.517 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:10:03.507 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:11:59.790 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:12:30.230 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:13:21.263 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:14:03.512 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:16:03.506 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:18:03.585 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:18:32.786 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:20:03.507 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:22:03.511 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:24:03.529 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:24:05.134 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:24:46.837 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:26:03.521 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:28:03.521 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:30:03.522 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:32:03.558 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:32:56.090 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:33:13.180 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:33:43.212 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:34:03.520 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:36:03.514 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:38:03.521 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:38:09.269 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:40:03.528 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:42:03.522 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:46:39.304 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:48:03.552 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:48:07.711 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:49:06.161 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:50:03.526 NotebookApp] Saving file at /Merge data together.ipynb
+[I 00:52:03.521 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:04:03.547 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:04:16.096 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:04:24.388 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:04:31.468 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:06:03.513 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:06:15.522 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:07:50.336 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:08:03.524 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:08:05.603 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:08:09.644 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:08:39.372 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:09:30.327 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:09:45.534 NotebookApp] Saving file at /Merge data together.ipynb
+[I 01:11:04.655 NotebookApp] Saving file at /Merge data together.ipynb
+[C 12:21:54.174 NotebookApp] received signal 15, stopping
+[I 12:21:54.184 NotebookApp] Shutting down kernels
+[I 12:21:54.190 NotebookApp] Kernel shutdown: 70259951-4289-4c6d-93d0-2493ae5e5074
+[I 12:21:54.896 NotebookApp] Kernel shutdown: 970bf5a4-e6ca-4f96-8a2c-1a5f0b3bfbaa
+[I 12:21:54.897 NotebookApp] Kernel shutdown: d1050d5f-1513-46c2-955d-2cbdd82c39cf
+[I 12:21:54.897 NotebookApp] Kernel shutdown: 2b7f984a-7f6e-43cd-b913-a1a913ead7b9
+[I 12:21:54.897 NotebookApp] Kernel shutdown: d39d9b65-2172-40a8-900d-5cf426f27b94
+[I 12:21:54.897 NotebookApp] Kernel shutdown: 998672b1-c620-4078-ab51-cad89e535d17
+[I 16:29:41.073 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 16:29:41.509 NotebookApp] Serving notebooks from local directory: /home/bschmidt/Dropbox/Gannett/wikipedia_population
+[I 16:29:41.509 NotebookApp] 0 active kernels 
+[I 16:29:41.509 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 16:29:41.509 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:29:43.208 NotebookApp] 302 GET /tree (127.0.0.1) 1.83ms
+[1:1:0809/163132.751917:ERROR:KeyboardEventManager.cpp(427)] Not implemented reached in static bool blink::KeyboardEventManager::currentCapsLockState()
+[W 16:31:35.714 NotebookApp] 401 POST /login?next=%2Ftree (127.0.0.1) 2.36ms referer=http://localhost:8888/login?next=%2Ftree
+[1:1:0809/163135.770942:ERROR:KeyboardEventManager.cpp(427)] Not implemented reached in static bool blink::KeyboardEventManager::currentCapsLockState()
+[I 16:31:38.360 NotebookApp] 302 POST /login?next=%2Ftree (127.0.0.1) 1.16ms
+[W 16:32:31.008 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170809162941 (127.0.0.1) 7.29ms referer=http://localhost:8888/notebooks/Merge%20data%20together.ipynb
+[I 16:32:31.736 NotebookApp] Kernel started: 851b6f54-14dc-4fc3-abde-59ed4fdfa693
+[I 16:34:31.745 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:35:50.822 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:37:50.658 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:38:31.751 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:40:31.754 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:42:32.628 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:44:31.746 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:48:18.701 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:53:45.085 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:55:37.081 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:55:39.823 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:56:31.741 NotebookApp] Saving file at /Merge data together.ipynb
+[I 16:58:31.750 NotebookApp] Saving file at /Merge data together.ipynb
+[I 17:00:31.752 NotebookApp] Saving file at /Merge data together.ipynb
+[I 14:25:22.066 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 14:25:22.462 NotebookApp] Serving notebooks from local directory: /home/bschmidt/Dropbox/Gannett/wikipedia_population
+[I 14:25:22.462 NotebookApp] 0 active kernels 
+[I 14:25:22.462 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 14:25:22.462 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 14:25:23.369 NotebookApp] 302 GET /tree (127.0.0.1) 2.42ms
+[1:1:0819/142526.126661:ERROR:KeyboardEventManager.cpp(427)] Not implemented reached in static bool blink::KeyboardEventManager::currentCapsLockState()
+[1:1:0819/142526.127022:ERROR:KeyboardEventManager.cpp(427)] Not implemented reached in static bool blink::KeyboardEventManager::currentCapsLockState()
+[I 14:25:27.739 NotebookApp] 302 POST /login?next=%2Ftree (127.0.0.1) 1.09ms
+[W 14:27:01.605 NotebookApp] Notebook Merge data together.ipynb is not trusted
+[W 14:27:01.648 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170819142522 (127.0.0.1) 7.59ms referer=http://localhost:8888/notebooks/Merge%20data%20together.ipynb
+[I 14:27:02.651 NotebookApp] Kernel started: 4074e997-6fbd-4591-a966-5a6ca263eea4
+[I 14:29:02.684 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:29:02.687 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:33:02.685 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:33:02.688 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:35:02.675 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:35:02.678 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:37:02.675 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:37:02.679 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[5130:5130:0819/143758.171072:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[I 15:09:02.670 NotebookApp] Saving file at /Merge data together.ipynb
+[W 15:09:02.672 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 15:17:02.676 NotebookApp] Saving file at /Merge data together.ipynb
+[W 15:17:02.678 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 15:19:02.671 NotebookApp] Saving file at /Merge data together.ipynb
+[W 15:19:02.672 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 15:21:02.669 NotebookApp] Saving file at /Merge data together.ipynb
+[W 15:21:02.671 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 15:23:02.659 NotebookApp] Saving file at /Merge data together.ipynb
+[W 15:23:02.660 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 13:51:10.484 NotebookApp] Saving file at /Merge data together.ipynb
+[W 13:51:10.487 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 13:53:10.494 NotebookApp] Saving file at /Merge data together.ipynb
+[W 13:53:10.496 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 13:55:10.949 NotebookApp] Saving file at /Merge data together.ipynb
+[W 13:55:10.951 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:11:10.940 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:11:10.942 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:15:10.959 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:15:10.961 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:17:10.491 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:17:10.494 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[5130:5130:0820/141850.841490:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[5130:5130:0820/141906.791140:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[I 14:19:10.938 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:19:10.939 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:24:59.573 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:24:59.575 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:25:09.636 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:25:09.637 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:27:09.634 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:27:09.635 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:31:10.097 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:31:10.101 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:35:09.624 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:35:09.625 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:37:09.630 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:37:09.631 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 14:39:09.620 NotebookApp] Saving file at /Merge data together.ipynb
+[W 14:39:09.621 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[5201:5201:0820/144343.567003:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567041:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567395:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567419:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567438:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567449:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567464:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567475:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567489:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567500:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567516:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567558:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567573:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567584:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567599:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567609:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567623:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567633:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567647:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567657:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567671:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567681:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567699:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567721:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567736:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567746:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567774:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567784:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567798:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567808:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567822:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567833:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567850:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567869:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567891:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567908:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567931:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567949:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.567968:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.567999:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568025:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568047:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568075:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568098:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568126:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568148:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568175:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568198:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568237:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568260:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568289:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568312:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568367:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568392:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568420:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568446:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568475:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568497:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568525:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568547:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568576:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568600:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568627:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568650:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568691:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568714:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568742:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568766:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568794:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568818:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568845:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568868:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568901:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568927:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568951:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.568972:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.568995:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569019:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569044:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569065:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569089:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569109:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569137:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569159:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569184:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569203:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569228:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569254:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569278:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569298:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569335:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569355:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569387:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569406:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569429:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569445:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569465:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569483:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569506:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569525:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569548:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569569:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569596:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569620:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569643:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569668:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569693:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569713:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569743:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569763:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569789:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569809:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569848:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569869:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569895:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569915:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569940:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.569959:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.569981:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570000:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570025:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570044:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570079:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570097:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570122:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570141:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570171:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570191:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570218:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570238:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570265:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570286:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570316:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570338:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570361:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570379:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570402:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570419:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570442:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570456:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570474:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570487:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570507:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570523:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570550:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570562:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570577:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570588:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570604:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570614:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570631:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570643:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570659:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570673:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570695:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570713:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570735:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570758:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570781:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570800:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570823:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570840:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570869:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570887:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570911:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570929:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.570958:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.570982:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.571009:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.571031:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.571059:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.571078:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.571100:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.571121:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.571147:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.571168:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.571194:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.571220:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5201:5201:0820/144343.571249:ERROR:gles2_cmd_decoder.cc(17403)] [.DisplayCompositor-0xced60f80000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[5201:5201:0820/144343.571271:ERROR:gles2_cmd_decoder.cc(9636)] [.DisplayCompositor-0xced60f80000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[5130:5130:0820/150033.977158:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://i.yldbt.com/m/f6c4/v1/init?cb=yieldbot.updateState&v=v2017-05-23%7Ce6df8ce&vi=j3nhg6j2w41rkwcfis&si=j6l3lf0bhrulmu165p&pvi=j6l3lf0af48529n101&pvd=1&sn=leaderboard%7Csb%7Crec&ssz=%7C%7C&lo=http%3A//talkingpointsmemo.com/&r=&sd=1920x1080&to=4&la=en-US&np=Linux%20x86_64&ua=Mozilla/5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/58.0.3029.110%20Safari/537.36&lpv=1034406276&cts_ns=1503255639309&cts_js=1503255639600&cts_ini=1503255639614&e, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://i.yldbt.com/m/f6c4/v1/init?cb=yieldbot.updateState&v=v2017-05-23%7Ce6df8ce&vi=j3nhg6j2w41rkwcfis&si=j6l3lf0bhrulmu165p&pvi=j6l3lf0af48529n101&pvd=1&sn=leaderboard%7Csb%7Crec&ssz=%7C%7C&lo=http%3A//talkingpointsmemo.com/&r=&sd=1920x1080&to=4&la=en-US&np=Linux%20x86_64&ua=Mozilla/5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/58.0.3029.110%20Safari/537.36&lpv=1034406276&cts_ns=1503255639309&cts_js=1503255639600&cts_ini=1503255639614&e, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+[5130:5130:0820/150046.813873:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://i.yldbt.com/m/f6c4/v1/init?cb=yieldbot.updateState&v=v2017-05-23%7Ce6df8ce&vi=j3nhg6j2w41rkwcfis&si=j6l55l4bw8s3dtyept&pvi=j6l55l4ab14kv6phys&pvd=1&sn=leaderboard%7Csb%7Crec&ssz=%7C%7C&lo=http%3A//talkingpointsmemo.com/&r=&sd=1920x1080&to=4&la=en-US&np=Linux%20x86_64&ua=Mozilla/5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/58.0.3029.110%20Safari/537.36&lpv=2620655&cts_ns=1503258259864&cts_js=1503258260258&cts_ini=1503258260269&e, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://i.yldbt.com/m/f6c4/v1/init?cb=yieldbot.updateState&v=v2017-05-23%7Ce6df8ce&vi=j3nhg6j2w41rkwcfis&si=j6l55l4bw8s3dtyept&pvi=j6l55l4ab14kv6phys&pvd=1&sn=leaderboard%7Csb%7Crec&ssz=%7C%7C&lo=http%3A//talkingpointsmemo.com/&r=&sd=1920x1080&to=4&la=en-US&np=Linux%20x86_64&ua=Mozilla/5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/58.0.3029.110%20Safari/537.36&lpv=2620655&cts_ns=1503258259864&cts_js=1503258260258&cts_ini=1503258260269&e, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://i.yldbt.com/m/f6c4/v1/init?cb=yieldbot.updateState&v=v2017-05-23%7Ce6df8ce&vi=j3nhg6j2w41rkwcfis&si=j6lhzfpft48kzh9xcj&pvi=j6lhzfpe1cji54tuln&pvd=1&sn=leaderboard%7Csb%7Crec&ssz=%7C%7C&lo=http%3A//talkingpointsmemo.com/&r=&sd=1920x1080&to=4&la=en-US&np=Linux%20x86_64&ua=Mozilla/5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/58.0.3029.110%20Safari/537.36&lpv=21548057&cts_ns=1503279807794&cts_js=1503279808318&cts_ini=1503279808326&e, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://i.yldbt.com/m/f6c4/v1/init?cb=yieldbot.updateState&v=v2017-05-23%7Ce6df8ce&vi=j3nhg6j2w41rkwcfis&si=j6lhzfpft48kzh9xcj&pvi=j6lhzfpe1cji54tuln&pvd=1&sn=leaderboard%7Csb%7Crec&ssz=%7C%7C&lo=http%3A//talkingpointsmemo.com/&r=&sd=1920x1080&to=4&la=en-US&np=Linux%20x86_64&ua=Mozilla/5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/58.0.3029.110%20Safari/537.36&lpv=21548057&cts_ns=1503279807794&cts_js=1503279808318&cts_ini=1503279808326&e, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+[5130:5130:0820/215326.842025:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[5130:5130:0821/205524.509497:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[I 20:55:50.012 NotebookApp] Saving file at /Merge data together.ipynb
+[W 20:55:50.014 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[5130:5130:0821/205647.814739:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[5130:5130:0821/211900.752828:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[5130:5130:0821/214724.239314:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[5130:5130:0821/215449.325974:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[I 22:19:48.902 NotebookApp] Saving file at /Merge data together.ipynb
+[W 22:19:48.905 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[I 22:21:48.909 NotebookApp] Saving file at /Merge data together.ipynb
+[W 22:21:48.911 NotebookApp] Saving untrusted notebook Merge data together.ipynb
+[5130:5130:0821/223531.897365:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener

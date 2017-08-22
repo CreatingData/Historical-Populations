@@ -1,0 +1,9 @@
+{
+    "path" : "~/Dropbox/Gannett/wikipedia_population",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

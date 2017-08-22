@@ -1,0 +1,58 @@
+---
+title: "Second Parsing"
+output: html_notebook
+---
+
+```{r fig.width=12}
+library(tidyverse)
+
+everything = read_csv("merged.csv")
+
+head(everything)
+
+labelled = everything %>% 
+  mutate(latitude = case_when(
+    is.na(lat) & is.na(LAT) ~ LAT_BING,
+    is.na(lat) ~ LAT,
+    TRUE ~ lat),
+  longitude = case_when(
+    is.na(lon) & is.na(LON) ~ LON_BING,
+    is.na(lon) ~ LON,
+    TRUE ~ lon),
+  name = case_when(
+    is.na(title) & is.na(CityST) ~ Alperin_Place,
+    is.na(title) ~ CityST,
+    TRUE ~ title
+  )
+  ) %>%
+  mutate(longitude = ifelse(is.na(lon),LON,lon)) %>%
+  mutate(source = case_when(
+    is.na(cesta_pops) & !is.na(alperin_pops) ~ "Alperin-Sheriff Wikipedia set",
+    is.na(cesta_pops) & is.na(alperin_pops) ~ "Wikipedia edits not in A-S or CESTA",
+    !is.na(cesta_pops) & is.na(wiki_pops) ~ "CESTA only",    
+    !is.na(cesta_pops) & !is.na(wiki_pops) ~ "In both Wikipedia and CESTA",    
+    TRUE ~ "Other"
+  ))
+
+labelled %>% write_csv("~/projects/popmaps/merged.csv")
+
+biggest = labelled %>% filter(!is.na(latitude),is.na(`settlement_type`) | `settlement_type` != "US State") %>% group_by(source) %>% filter(!is.na(maxpop)) %>% arrange(-maxpop) %>% sample_n(10,weight=maxpop)
+
+
+library(ggrepel)
+ggplot(labelled %>% filter(latitude < 50,longitude < -20) %>% sample_frac()) + aes(x=longitude,y=latitude,label=paste(name,maxpop)) + geom_point(position="jitter",size=.5,alpha=.1) + facet_wrap(~source) + coord_map(proj="albers",y0=30,y1=45) + labs(title="Dataset sources") + geom_text_repel(data=biggest,size=3,color=scales::muted("blue"))
+
+#head(labelled)
+
+biggest
+```
+
+```{r}
+labelled %>% filter(grepl("Heber Springs|Upper Darby|Washington Court House",name)) %>% arrange(name)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+Show in New WindowClear OutputExpand/Collapse Output
+Error in install.packages : Updating loaded packages

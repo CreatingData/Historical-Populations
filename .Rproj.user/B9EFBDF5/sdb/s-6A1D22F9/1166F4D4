@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"R Notebook\"\noutput: html_notebook\n---\n\nThis is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. \n\nTry executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. \n\n```{r}\nlibrary(tidyverse)\n\noverage = read_csv(\"~/9943478/wiki3.csv\")\noverage %>% filter(y2010>=0) %>% nrow\n```\n\n```{r}\noverage %>% ungroup %>% filter(`y2010` > 1) %>% sample_n(10000) %>% ggplot() + geom_point() + aes(y=article_length,x=y2010) + scale_y_log10() + scale_x_log10() + geom_smooth(method=\"loess\",span = .75)\n```\n\n```{r}\noverage = overage %>% filter(y2010 > 0)\nmodel = loess(log(article_length) ~ log(y2010+1),overage,span=.8)\noverage$preds = predict(model)\n\n\n```\n\n```{r}\noverage %>% mutate(error = log(article_length) - preds, scaled_error = scale(error) %>% as.numeric) %>% arrange(-abs(scaled_error)) %>% write_csv(\"~/9943478/errors.csv\")\n```\n\n\n```{r}\nmat = overage %>% select(starts_with(\"y\")) %>% as.matrix\nmat[mat==0] = NA\nchange = (mat[,-1])/(mat[,-ncol(mat)])\nlchange = log(change)\n\nsmoother = sapply(1:ncol(lchange),function(i){\n  row = sapply(1:ncol(lchange),function(j) {\n    p = pnorm(i-j,0,2)\n    min(p,1-p) \n  })\n  row/sum(row)\n})\n\nlchange[is.na(lchange)] = 0\nlchange[is.infinite(lchange)] = 0\n\nlchange2 = lchange %*% smoother\nk = 9\na = flexclust::kcca(lchange2,k,flexclust::kccaFamily(\"kmeans\"),simple=T)\n#a = kmeans(lchange,k,iter.max = 25,nstart = 5)\n\n\noverage$cluster = a@cluster\n\nplottable = lapply(1:k,function(n) {\n  p = lchange2[a@cluster==n,]\n  #exp(cumsum(apply(p,2,mean))) %>%\n  apply(p,2,mean) %>%\n    as.data.frame %>% mutate(year = seq(1800,2010,by=10),k = n)\n}) %>% bind_rows\nnames(plottable)[1] = \"population\"\nggplot(plottable) + geom_line(aes(x=year,y=population)) + facet_wrap(~k,scales=\"free_y\")\n\nggplot(overage %>% filter(lon < -25, lat < 50,lat > 23) %>% filter(state %in% c(\"MA\",\"NY\",\"NJ\",\"PA\",\"ME\",\"VT\",\"NH\",\"RI\",\"CT\"))) + geom_point(aes(x=lon,y=lat,color=factor(cluster)),alpha=.05) + facet_wrap(~cluster)\n\npops \n```\n```{r}\noverage %>% group_by(cluster) %>% arrange(-y2010) %>% filter(!is.na(lat),settlement_type==\"City\") %>% slice(1) %>% select(lat,lon,state,title)\noverage %>% filter(title==\"Detroit\")\n```\n\n\n```{r}\n\nloc_data = overage %>% filter(state==\"ME\") %>% filter(!grepl(\"County\",title))\nmat = loc_data %>% select(starts_with(\"y\")) %>% as.matrix\nmat[mat==0] = NA\nchange = (mat[,-1])/(mat[,-ncol(mat)])\nlchange = log(change)\n\nsmoother = sapply(1:ncol(lchange),function(i){\n  row = sapply(1:ncol(lchange),function(j) {\n    p = pnorm(i-j,0,2)\n    min(p,1-p) \n  })\n  row/sum(row)\n})\n\nlchange[is.na(lchange)] = 0\nlchange[is.infinite(lchange)] = 0\n\nlchange2 = lchange %*% smoother\nk = 6\na = flexclust::kcca(lchange2,k,flexclust::kccaFamily(\"kmeans\"),simple=T)\n#a = kmeans(lchange,k,iter.max = 25,nstart = 5)\n\n\nloc_data$cluster = a@cluster\n\nplottable = lapply(1:k,function(n) {\n  p = lchange2[a@cluster==n,]\n  #apply(p,2,mean))) %>%\n  apply(p,2,mean) %>%\n    cumsum %>% exp %>%\n    as.data.frame %>% mutate(year = seq(1800,2010,by=10),k = n)\n}) %>% bind_rows\nnames(plottable)[1] = \"population\"\nggplot(plottable) + geom_line(aes(x=year,y=population)) + facet_wrap(~k,scales=\"free_y\")\n\nggplot(loc_data %>% filter(lon < -25, lat < 50,lat > 23) %>% filter(state %in% c(\"MA\",\"NY\",\"NJ\",\"PA\",\"ME\",\"VT\",\"NH\",\"RI\",\"CT\"))) + aes(x=lon,label=title,y=lat,color=factor(cluster)) + geom_point(alpha=.55,aes(size=y2010)) + facet_wrap(~cluster) + coord_map() + geom_text(data=loc_data %>% group_by(cluster) %>% arrange(-y2010) %>% slice(1:10))\n\npops \n```",
+    "created" : 1501276692201.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1960844003",
+    "id" : "1166F4D4",
+    "lastKnownWriteTime" : 1503066681,
+    "last_content_update" : 1503066681030,
+    "path" : "~/Dropbox/Gannett/wikipedia_population/Kmean and loess.Rmd",
+    "project_path" : "Kmean and loess.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

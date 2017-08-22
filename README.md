@@ -12,10 +12,10 @@ The sources are:
 
 The most useful files are likely
 
-* [WikiData.csv]() (The parsed files from wikipedia.)
+* [WikiData.csv](WikiData.csv) (The parsed files from wikipedia.)
 and
-* [merged.csv]() (The union dataset.)
-* The files in [wiki_census/]()sss, which are the sources Alperin-Sheriff used to build the wikipedia page.
+* [merged.csv](merged.csv) (The union dataset.)
+* The files in [wiki_census](wiki_census), which are the sources Alperin-Sheriff used to build the wikipedia page.
 
 Also included is the code that performs extraction from a wikipedia dump, and which performs the merge
 (including a few examples of errors and differences between sets.) These are mostly in ipython notebooks, with a little bit in R notebooks. Most of the operational python code is broken out into the `.py` files.

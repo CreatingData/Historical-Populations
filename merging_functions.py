@@ -18,9 +18,6 @@ def state_wikipedia_data(stateabbr):
     return (st, mat)
 
 
-
-
-
 # Alperin stuff
 
 fs = [f for f in os.listdir("wiki_census/") if f.endswith(".csv")]
@@ -41,7 +38,7 @@ for f in fs:
 
 
 
-all_together = pd.DataFrame([])
+complete_alperin_set = pd.DataFrame([])
 for f in master_list:
     new_data = pd.read_csv("wiki_census/" + f,na_values = ["-","(X)"," "])
     new_data["state"] = f[:2]
@@ -63,26 +60,27 @@ for f in master_list:
     for t in ["STATE","STNAME","State",'2014','2015']:
         if t in new_data.columns:
             del new_data[t]
-    all_together = all_together.append(new_data)
+    complete_alperin_set = complete_alperin_set.append(new_data)
 
 
  
-alperin_mat = np.array(all_together[[str(y) for y in years]])
+alperin_mat = np.array(complete_alperin_set[[str(y) for y in years]])
 alperin_mat[np.isnan(alperin_mat)] = 0
 for y in years:
-    del all_together[str(y)]
-all_together['alperin_pops'] = [",".join(np.char.mod('%i', alperin_mat[i][::-1])) for i in range(len(alperin_mat))]
+    del complete_alperin_set[str(y)]
+complete_alperin_set['alperin_pops'] = [",".join(np.char.mod('%i', alperin_mat[i][::-1])) for i in range(len(alperin_mat))]
 
-for cname in all_together.columns:
+for cname in complete_alperin_set.columns:
     if "ESTIMATE" in cname:
-        del(all_together[cname])
+        del(complete_alperin_set[cname])
 
 alperin_mat[alperin_mat==0] = np.nan
 
 
-
-
 CESTA = pd.read_excel("1790-2010_MASTER.xlsx")
+
+# Some CESTA data doesn't work so great.
+
 CESTA["2010"] = pd.to_numeric(CESTA["2010"],np.float64)
 CESTA["1910"] = pd.to_numeric(CESTA["1910"],np.float64)
 CESTA["1980"] = pd.to_numeric(CESTA["1980"],np.float64)
@@ -101,18 +99,17 @@ def CESTA_Version(st="ME"):
 
 def state_counts(st = "ME"):
     # Generate similarly-formatted data for all three formats
-    alperin_model = (all_together[all_together["state"]==st],alperin_mat[all_together["state"] == st])
+    alperin_model = (complete_alperin_set[complete_alperin_set["state"]==st], alperin_mat[complete_alperin_set["state"] == st])
     wiki_model = state_wikipedia_data(st)
     cesta = CESTA_Version(st)
     return (alperin_model, wiki_model, cesta)
-
-
 
 
     # (202) 224-3121
 
 class Citymatch(dict):
     dict = {}
+    
     def keep_score(self):
         # Ranking, in order, use:
         # 1. overlap percent
@@ -144,6 +141,10 @@ class Citymatch(dict):
                     break
                 except KeyError:
                     pass
+                except AttributeError:
+                    print pos
+                    print self['sources']
+                    raise
         return names
                     
             
@@ -180,11 +181,15 @@ def match_matrices(b,a,min=3,sources=(None,None)):
     b_lengths = np.sum(b > 0,axis=1)
     matches = []
     for i in range(len(b)):
-        row_matches = match_row(a,b,i,min=min,sources =sources)
+        row_matches = match_row(a,b,i,min=min,sources=sources)
         matches += row_matches
 
-
+    print "{} matches between the sets".format(len(matches))
     # Make sure nothing matches twice.
+    # This might happen when--e.g.--Manhattan
+    # and New York City have the same population
+    # for 100 years, but then diverge.
+    
     a_s = defaultdict(list)
     b_s = defaultdict(list)
 
@@ -290,17 +295,23 @@ def merge_two_sets(a,b):
     only_b = set(range(len(b[1]))).difference(as_b)
     only_a = set(range(len(a[1]))).difference(as_a)
 
+#    if (len(only_a)==0):
+#        # In case one is empty, like Hawaii for Alperin.
+#        return merge_two_sets(b,a)
+
+    
     new_frame = []
 
     new_pops = np.zeros((len(matches) + len(only_a) + len(only_b), 23))
 
-    for i,match in enumerate(matches):
+    i = 0
+    for match in matches:
         new_pops[i] = merge_a_match(match,a,b)
         d1 = a[0].iloc[match['a']].to_dict()
         d2 = b[0].iloc[match['b']].to_dict()
         d1.update(d2)
         new_frame.append(d1)
-    i += 1 # Keep using the position.
+        i += 1
 
     if only_a:
         for j, akey in enumerate(only_a):

@@ -10,7 +10,7 @@ provinces = [
 {"short":"CA","name":"California","country":"US"},
 {"short":"CO","name":"Colorado","country":"US"},
 {"short":"CT","name":"Connecticut","country":"US"},
-{"short":"DC","name":"District of Columbia","alt":["Washington DC","Washington D.C."],"country":"US"},
+{"short":"DC","name":"District of Columbia","alt":["Washington DC","Washington D.C.","Washington, D.C."],"country":"US"},
 {"short":"DE","name":"Delaware","country":"US"},
 {"short":"FL","name":"Florida","country":"US"},
 {"short":"GA","name":"Georgia","country":"US"},
@@ -1380,6 +1380,8 @@ us_states = dict()
 for s in provinces:
     if s["country"]=="US":
         us_states[s["name"]] = s["short"]
-
+        if "alt" in s:
+            for alt in s["alt"]:
+                us_states['alt'] = s['short']
 
 canadian_provinces = set([s["name"] for s in provinces if s["country"]=="CA"])

@@ -1,31 +1,44 @@
 # This Python file uses the following encoding: utf-8
 
-import bz2
+from bz2file import BZ2File
 import regex as re
 import mwparserfromhell as mw
 import provinces
 
 us_states = provinces.us_states
+
+# Line below can be deleted.
+us_states['Washington, D.C.'] = "DC"
+
 ca_provinces = provinces.canadian_provinces
 
 # Removes double brackets and links.
 _stripper_re = re.compile(r"[\[\{]{2}(?:[^\]]*\|)?([^\]]*)[\]\}]{2}")
+
+
 
 def value_for_table_entry(key, text):
     my_re = r"\| ?" + key + r"[^=]*=(.*)"
     matches = re.findall(my_re,text)
     if matches:    
         m = matches[0]
+        # A special case for Los Angeles where pixels are
+        # specified in the last slot of the state.
+        m = re.sub("\|size=\d+px", "", m)
+        
         # Ugly; remove anything after a link out starts
         m = re.sub("&lt.*&gt.*","",m)
         m = re.sub(_stripper_re,r"\1",m)
+        
+        # eg: 'Flag of Texas.svg}} [[Texas' -> 'Texas'
+        m = re.sub(r".*\}\} \[\[(.*)", "\\1", m)
         m = m.strip()
         return m
     else:
         raise NoSuchAttribute
-    
-def settle_type(self):
 
+# Class methods here defined as standalone functions.
+def settle_type(self):
     settlematch_re = r"\| ?settlement_type.*=(.*)"
     any_type_match_re = r"\| ?type.*=(.*)"
     
@@ -34,7 +47,7 @@ def settle_type(self):
             try:
                 m = value_for_table_entry(my_key,self.text[:4000])
 #                m = m.replace("&lt;!-- e.g. Town, Village, City, etc.--&gt;","")
-                return m
+                return m.capitalize()
             except NoSuchAttribute:
                 continue
             
@@ -77,18 +90,18 @@ def settle_type(self):
 
     try:
         m = value_for_table_entry(r"official name",self.text[:1000])
-        print m
-        
-    except:
+        print "SOMETHING OFF WITH " + m
+    except NoSuchAttribute:
         pass
-    t = self.title.split(",",1)[0]
     
-    in_text = re.findall(r"'''" + t + r"''' (?:is|was) an? ([^ ]+ ?[^ ]+|\[\[+[^\]]{,40}\]\]) (?:(?:located)? ?in |that existed)",self.text[:5000])
+    t = self.title.split(",",1)[0]
+    in_text = re.findall(r"'''" + re.escape(t) + r"''' (?:is|was) an? ([^ ]+ ?[^ ]+|\[\[+[^\]]{,40}\]\]) (?:(?:located)? ?in |that existed)",self.text[:5000])
     if in_text:
-        print "Using " + in_text[0]
-        return re.sub(_stripper_re,r"\1",in_text[0])
+        candidate = re.sub(_stripper_re,r"\1",in_text[0]).capitalize()
+#        print "Using " + candidate
+        return candidate
     if "(" in t and ")" in t:
-        # Star Prairie (town), Wisconsin -> 'town'
+        # For example: Star Prairie (town), Wisconsin -> 'town'
         return t.split("(")[1][:-1]
     
     return "Unknown"
@@ -96,8 +109,7 @@ def settle_type(self):
         
 def get_keyval(line):
     # Extremely lightweight parsing of the XML. Should work?
-    
-    if line.startswith("    <"):
+    if line.startswith("    <") and ">" in line:
         keyend = line.find(">")
         valueend = line.rfind("<")
         if valueend < keyend:
@@ -111,7 +123,8 @@ def get_keyval(line):
     
 class WikipediaParser(object):
     def __init__(self,dump_location):
-        self.f = bz2.BZ2File(dump_location)
+        self.f = BZ2File(dump_location)
+        
     def filter(self,article):
         return True
     
@@ -145,7 +158,8 @@ class WikipediaParser(object):
                         try:
                             _,id = get_keyval(line)
                         except:
-                            continue
+                            raise
+#                            continue
                     elif line.startswith("      <text"):
                         textstart = line.find(">")
                         text = line[textstart + 1:]
@@ -163,10 +177,10 @@ class NoSuchAttribute(Exception):
 
 def parse_row(row):
     try:
-        y,rest = row.split("=",1)
+        y, rest = row.split("=",1)
         pop = int(rest.replace(",",""))
         y = int(y)
-    except:
+    except ValueError:
         return None
     return (y,pop)
 
@@ -174,7 +188,7 @@ def parse_bars(row):
     try:
         _,y,p = row.split("|")
         return((int(y),int(p.replace(",",""))))
-    except:
+    except AttributeError:
         return None
 
 import requests as r
@@ -194,7 +208,7 @@ class WikipediaArticle(object):
     def mwparse(self):
         try:
             return self.mediawiki
-        except:
+        except AttributeError:
             d = mw.parse(self.text).filter_templates()
             self.mediawiki = d
             return d
@@ -291,21 +305,26 @@ class WikipediaArticle(object):
             
         if "|region:" in self.text:
             start = self.text.index("|region:")
-            place = self.text[start+8:start+14]
-            if place[2]=="-" and (place[5]=="|" or place[5]=="_"):
+            place = self.text[start+8:start+20]\
+               .replace("{{xb|","")\
+               .replace("{{Xb|","")               
+            if place[2]=="-" and (place[5]=="|" or place[5]=="_" or place[5] == ":"):
                 return place[:2]
-            if place[2] in "|_-":
+            if place[2] in "|_-}":
                 if place[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
                     if place[1] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
                         return place[:2]
-            print place
-            print "***" + self.text[start+7:start+40] + "***"
+            for exception in ["KOS", "Kosovo", "es", "Spain"]:
+                if place.startswith(exception):
+                    return exception
+            print "***" + place.replace("\n","\\n") + "***"
+            print "***" + self.text[start:start+40].replace("\n","\\n") + "***"
 
         if "= Location in Turkey\n" in self.text[:500]:
             return "TR"
 
         if re.search(r"\n\|.?subdivision_type",self.text[:2500]):
-            guess = self.country_from_subdivision()            
+            guess = self.country_from_subdivision()        
             return guess
             
         if "\n| subdivision_type1" in self.text[:2500]:
@@ -362,16 +381,24 @@ class WikipediaArticle(object):
             raise NoSuchAttribute
         try:
             self.poptype = poptemplates[0].get("type").value.rstrip()
-        except:
-            self.poptype = "Unknown"
+        except ValueError:
+            try:
+                self.poptype = poptemplates[0].get("settlement_type").value.rstrip()
+            except ValueError:
+                self.poptype = "Unknown"
         
         oput = []
         for row in poptemplates[0].split(u"\n"):
             try:
                 _,y,p = row.split("|")
                 oput.append((int(y),int(p.replace(",",""))))
-            except:
-                pass
+            except ValueError:
+                try:
+                    parts = row.split("|")
+                    y,p = parts[:2]
+                    oput.append((int(y),int(p.replace(",",""))))                    
+                except ValueError:
+                    pass
         return oput
 
     def census_pops_1(self):
@@ -460,17 +487,28 @@ class WikipediaArticle(object):
         try:
             name = value_for_table_entry("subdivision_name1", self.text[:5800])
             return us_states[name]
-        except:
+        except KeyError as e:
+            pass
+        except NoSuchAttribute:
             pass
 
         try:
             name = value_for_table_entry("name", self.text[:1200])
-
             name = name.split(",")[-1].strip().rstrip()
             return us_states[name]
-        except:
+        except KeyError:
+            pass
+        except NoSuchAttribute:
             pass
 
+        if self.title.startswith("Manhattan Community Board"):
+            return "NY"
+        
+
+        if self.title.endswith(" (state)"):
+            return us_states[self.title.replace(" (state)", "")]
+        
+        
         # A few important places just don't match the mold.
         # This includes a lot of neighborhoods like Northern Liberties, PA
         # I see no places under 1000 that show major problems.
@@ -486,7 +524,10 @@ class WikipediaArticle(object):
             "Philadelphia":"PA",
             "Manhattan":"NY",
             "Chicago":"IL",
-            "Washington, D.C.":"DC"
+            "Washington, D.C.":"DC",
+            "Research Triangle": "NC",
+            "Idaho Panhandle": "ID" ,           
+            
         }
 
         try:
@@ -495,8 +536,19 @@ class WikipediaArticle(object):
             if "Washington, D.C." in self.title:
                 # Necessary because the comma screws things up.
                 return "DC"
-            raise NoSuchAttribute
+#            print "Unable to match state error on " + self.title
 
+        for skippable in ["–", " in the ", " on the ", "Draft", "Long Island Sound","Southwestern United States","National Park", "Greater Boston", "Wikipedia:", "Hispanics and Latinos", "Pee Dee"]:
+            # Some articles are just junk articles that won't have titles, or are
+            # regions outside of state boundaries.
+            if skippable in self.title:
+                return
+        if self.title.endswith(" Region"):
+            return
+        
+        raise NoSuchAttribute
+
+        
     def is_county(self):
         parts = self.parse_name_portions()
         for k in ['place','county']:
@@ -518,21 +570,21 @@ class WikipediaArticle(object):
             start = content.index("{{US Census population")
             method = parse_row
             splitter="|"
-            
-        except:
+        except ValueError:
             pass
+        
         try:
             start = content.index("{{USCensusPop")
             method = parse_row
             splitter="|"
-        except:
+        except ValueError:
             pass
         
         try:
             start = content.index("{{Historical populations")
             method = parse_bars
             splitter="|"
-        except:
+        except ValueError:
             pass
 
         if splitter is None:
@@ -570,10 +622,10 @@ class WikipediaArticle(object):
         return self.__str__()
     
     def boxes(self):
-        
+        # A cached function.
         try:
             return self._box_names
-        except:        
+        except AttributeError:
             self._box_names = [t.name for t in self.mwparse()]
             return self._box_names
     
@@ -581,7 +633,7 @@ class WikipediaArticle(object):
         utf = self.text
         try:
             start = utf.index("{{coord|") + 8
-        except:
+        except ValueError:
             return (None,None)
         utf = utf[start:]
         try:
@@ -620,6 +672,7 @@ class WikipediaArticle(object):
                 raise
             return lat_lon_adjust_negatives((lat,lon),pair)
         except:
+            raise
             #print "BAD COORDS: {} for {}".format(coords,self.title)
             return (None,None)
 

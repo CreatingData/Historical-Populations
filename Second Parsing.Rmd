@@ -3,6 +3,8 @@ title: "Second Parsing"
 output: html_notebook
 ---
 
+I hate pandas, so some additional data cleaning in dply.
+
 ```{r fig.width=12}
 library(tidyverse)
 
@@ -23,6 +25,10 @@ labelled = everything %>%
     is.na(title) & is.na(CityST) ~ Alperin_Place,
     is.na(title) ~ CityST,
     TRUE ~ title
+  ),
+  state = case_when(
+    is.na(state) ~ ST,
+    TRUE ~ state
   )
   ) %>%
   mutate(longitude = ifelse(is.na(lon),LON,lon)) %>%
@@ -34,8 +40,21 @@ labelled = everything %>%
     TRUE ~ "Other"
   ))
 
-labelled %>% write_csv("~/projects/popmaps/merged.csv")
+#ggplot(labelled) + geom_point(aes(x=umap_x,y=umap_y),alpha=.05)
 
+# I like this orientation better
+labelled$umap_y = labelled$umap_y
+
+labelled %>% 
+  # Drop wiki places with only 2016 counts.
+  filter(!(is.na(cesta_pops) & is.na(alperin_pops) & !grepl("[1-9]", wiki_pops))) %>%
+  select(name, starts_with('1'), starts_with('2'), ends_with('_pops'), STPLFIPS_2010, article_length, latitude, longitude, starts_with('umap_') ,state) %>%
+  write_csv("~/Dropbox/project/mapviz/build/data/city_pops.csv")
+
+```
+
+
+```{r}
 biggest = labelled %>% filter(!is.na(latitude),is.na(`settlement_type`) | `settlement_type` != "US State") %>% group_by(source) %>% filter(!is.na(maxpop)) %>% arrange(-maxpop) %>% sample_n(10,weight=maxpop)
 
 

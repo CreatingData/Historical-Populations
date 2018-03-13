@@ -7,7 +7,8 @@ cite that project in addition to this repo. Eg: "Schmidt, Benjamin. *Creating Da
 
 ### License
 
-This data is in the public domain and there are no legal restrictions on its use. If you're an academic, I'd recommend citing also the [CESTA population set](https://github.com/cestastanford/historical-us-city-populations) that this draws on.
+This data is in the public domain and there are no legal restrictions on its use. If you're an academic, I'd recommend also citing the [CESTA population set](https://github.com/cestastanford/historical-us-city-populations) that this draws on, as well as Wikipedia if you can swing that.
+
 ### Content
 
 A fuller description of data and method is contained in the file `extended_description.md` and on the project page.

@@ -3,7 +3,12 @@
 This is a dataset and code that merges three major sources of historical US population data.
 
 It is part of the in-progress [*Creating Data* digital monograph](http://creatingdata.us/). If citing, please
-cite that project in addition to this repo. Eg: "Schmidt, Benjamin. *Creating Data: The Invention of Information in the nineteenth century American State.* http://creatingdata.us"
+cite that project in addition to this repo. Eg: "Schmidt, Benjamin. *Creating Data: The Invention of Information in the nineteenth century American State.* http://creatingdata.us".
+
+### License
+
+This data is in the public domain and there are no legal restrictions on its use. If you're an academic, I'd recommend citing also the [CESTA population set](https://github.com/cestastanford/historical-us-city-populations) that this draws on.
+### Content
 
 A fuller description of data and method is contained in the file `extended_description.md` and on the project page.
 
@@ -16,11 +21,13 @@ The sources are:
 There are many process files here. The most useful files are likely:
 
 * [merged.csv](merged.csv) (The union dataset.)
-* The files in `wikipedia_state_data/`, which include the parsed contents of all Wikipedia population boxes in the United States
+* The files in `wikipedia_state_data/`, which include the parsed contents of all Wikipedia population boxes in the United States.
 * The files in [wiki_census](wiki_census), which are the sources Alperin-Sheriff used to build the wikipedia page.
 
 There are all sorts of errors here. Since this is built up programatically, I'm not interested in corrections to individual data points, although I encourage you
-to correct the Wikipedia pages. I have made some efforts to merge duplicate cities in the `merged.csv` file, but there are many cases of double-counting of various sorts.
+to correct the Wikipedia pages.
+
+I have made many efforts to merge duplicate cities in the `merged.csv` file, but there are many cases of double-counting of various sorts, especially when the wikipedia and CESTA populations diverge for a single city or when multiple levels of government each have an entry (for example, both Manhattan and New York City have entries).
 
 The wikipedia set is about 4x bigger than the CESTA one. The following maps show roughly the original contributions of each dataset:
 
